@@ -1,5 +1,6 @@
-//Roll dice
+//Roll die 1
 var randomNumber1 = Math.floor(Math.random() * 6 + 1);
+//Roll die 2
 var randomNumber2 = Math.floor(Math.random() * 6 + 1);
 
 document.querySelector(".img1").setAttribute("src", "images/dice"+randomNumber1+".png");
